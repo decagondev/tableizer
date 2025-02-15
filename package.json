@@ -1,0 +1,17 @@
+{
+  "name": "tableizer",
+  "version": "1.0.0",
+  "description": "A CLI tool to encode strings into a table and indices.",
+  "main": "index.js",
+  "bin": {
+    "tableizer": "index.js",
+    "tableizer-decode": "decoder.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "decode": "node decoder.js"
+  },
+  "keywords": ["cli", "table", "index", "encode", "decode"],
+  "author": "Tom Tarpey",
+  "license": "MIT"
+}
